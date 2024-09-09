@@ -5,4 +5,11 @@ public class Cabeca {
     public Nariz nariz;
     public Olho olho;
     public Boca boca;
+
+    public Cabeca(){
+        this.olho = new Olho();
+        this.orelha = new Orelha();
+        this.nariz = new Nariz();
+        this.boca = new Boca();
+    }
 }
